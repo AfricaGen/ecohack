@@ -12,7 +12,7 @@ Important! You don't need to be a killer blockchain dev for participating, just 
 
 ## Date and Location
 
-From October 8th to 10th​, 2018 at [Lemigo Hotel, KG 624 St, Kigali, Rwanda](https://goo.gl/maps/GkS2hUMe9zj)
+From October 8th to 10th​, 2018 at [K-Lab, Telecom House, KG 7 Avenue, Kigali, Rwanda](https://goo.gl/maps/BkEdcLMM5862)
 
 ## Attendees
 
@@ -27,9 +27,7 @@ We will bring college or university students, young entrepreneurs and innovators
 
 ## Prizes and benefits
 
-A panel of experts will evaluate each team’s performance, and compensate the winning team with cash prizes, as well as 1000$ worth of Consensys blockchain online training vouchers for the best participants overall.
-
-Online training: qualified participants will benefit from online training before and after hackathon.
+A panel of experts will evaluate each team’s performance, and compensate the best performing team and participants with Stellar Airdrops, as well as 12 brand new Infinix mobile phones as prizes.
 
 Blockchain mentorship: access to world-class experts that have built blockchain solutions.
 
@@ -65,14 +63,14 @@ Check out the [Platform Technical Architecture](./sahara/high_level_architecture
 | 15:00 - 17:00 |Site Visit|Nyandungu|
 | Monday, October 8th |||
 | 9:00 - 12:00 |Attend YCA2018 Opening|KCC|
-| 13:00 - 15:00 |Lunch Hackathon Introduction: * Presentation by MinEnv * Blockchain lecture|Lemigo Hotel|
-| 15:00 - 18:00 |Hackathon Phase 1|Lemigo Hotel|
+| 13:00 - 15:00 |Lunch Hackathon Introduction: * Presentation by MinEnv * Blockchain lecture|KLab|
+| 15:00 - 18:00 |Hackathon Phase 1|KLab|
 | Tuesday, October 9th |||
-| 08:00 - 09:00 |Breakfast|Lemigo Hotel|
-| 09:00 - 12:00 |Hackathon - Phase 2|Lemigo Hotel|
-| 12:00 - 13:00 |Lunch|Lemigo Hotel|
-| 13:00 - 16:00 |Hackathon - Phase 3|Lemigo Hotel|
-| 16:00 - 18:00 |Presentations & Closing: * Modules Presentation * Platform live-testing * Prizes |Lemigo Hotel|
+| 08:00 - 09:00 |Breakfast|KLab|
+| 09:00 - 12:00 |Hackathon - Phase 2|KLab|
+| 12:00 - 13:00 |Lunch|KLab|
+| 13:00 - 16:00 |Hackathon - Phase 3|KLab|
+| 16:00 - 18:00 |Presentations & Closing: * Modules Presentation * Platform live-testing * Prizes |KLab|
 | Wednesday, October 10th |||
 | 09:00 - 14:00 |Attend YCA2018 closing: * Sahara platform presentation at YCA2018 * Prizes|KCC|
 
@@ -83,7 +81,7 @@ Please check the [Attendee Handbook](./attendee_handbook.md), this is your one-s
 ## Co-Organizers
 
 * AfricaGen
-* KLAB
+* KLab
 * Rwanda ICT chamber
 * Rwandan Ministry of Youth
 * Rwandan Ministry of Environment
