@@ -85,13 +85,15 @@ Please check the [Attendee Handbook](./attendee_handbook.md), this is your one-s
 * AfricaGen
 * KLAB
 * Rwanda ICT chamber
-* the Rwandan Ministry of Youth
+* Rwandan Ministry of Youth
 * Rwandan Ministry of Environment
 
 ## Partners
 
-* Consensys
+* Interstellar (Stellar)
+* Clic.world
 * YouthConneckt Africa Summit
+* Consensys
 * Smart Africa
 * Global Blockchain Council
 * Blockchain EXE (Japan)
