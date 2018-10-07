@@ -59,12 +59,14 @@ Check out the [Platform Technical Architecture](./sahara/high_level_architecture
 
 ||||
 |:----------|:-------------|:---|
-| Sunday, October 7th |||
-| 15:00 - 17:00 |Site Visit|Nyandungu|
 | Monday, October 8th |||
 | 9:00 - 12:00 |Attend YCA2018 Opening|KCC|
-| 13:00 - 15:00 |Lunch Hackathon Introduction: * Presentation by MinEnv * Blockchain lecture|KLab|
-| 15:00 - 18:00 |Hackathon Phase 1|KLab|
+| 12:00 - 13:30 |Lunch |KCC|
+| 15:00 - 15:30 |Launch of EcoHack - Presentation of the Nyandungu project,|KLab|
+| 15:30 - 16:00 |Presentation about carbon credits|KLab|
+| 16:00 - 16:30 |Introduction of the Sahara Marketplace|KLab|
+| 16:30 - 17:00 |Introduction about Blockchains/Stellar|KLab|
+| 17:00 |Hackathon - Phase 1|KLab|
 | Tuesday, October 9th |||
 | 08:00 - 09:00 |Breakfast|KLab|
 | 09:00 - 12:00 |Hackathon - Phase 2|KLab|
