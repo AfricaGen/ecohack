@@ -89,6 +89,7 @@ Please check the [Attendee Handbook](./attendee_handbook.md), this is your one-s
 ## Partners
 
 * Stellar
+* Infinix
 * Clic.world
 * YouthConneckt Africa Summit
 * Consensys
