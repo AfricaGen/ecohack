@@ -8,7 +8,7 @@ We are really happy to see new people involved in improving tools ;)
 
 This document aims to give more understanding about this hackathon.
 
-Important! You don't need to be a killer blockchain dev for participating, just being a curious developer and have a basic understanding of Ethereum tech.
+Important! You don't need to be a killer blockchain dev for participating, just being a curious developer and have a basic understanding of Stellar tech.
 
 ## Date and Location
 
