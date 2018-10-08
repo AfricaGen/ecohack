@@ -2,7 +2,7 @@
 
 ## Communication Channel
 
-All the communications during the hackaton would happen on the telegram channel [https://t.me/africagen](https://t.me/africagen) . Make sure you join it and say hi. Feel free to ask for information there, or discuss various topics with other participants.
+All the communications during the hackaton would happen on the telegram channel [https://t.me/AfricaGen](https://t.me/AfricaGen) . Make sure you join it and say hi. Feel free to ask for information there, or discuss various topics with other participants.
 
 ## Expectation from the hackers
 
