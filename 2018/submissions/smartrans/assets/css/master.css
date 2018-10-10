@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Miriam+Libre|Ubuntu+Condensed');
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "ubuntu"!important;
+}
+label{
+  font-family: "ubuntu"!important;
+}
+.title{
+  text-align: center;
+  font-size: 1.5rem;
+}
+.holder{
+  width: 50%;
+  float: left;
+  border-right: 1px solid #ddd;
+  padding-right: 40px;
+  height: 100vh;
+}
+#holding{
+  border-right: none!important;
+  background:linear-gradient(rgba(39, 42, 128, 0.56),rgba(0, 0, 0, 0.5)),
+  url('../logo/back.jpg');
+  position: absolute;
+  right: 0;
+  background-size: cover;
+}
+.look{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.form-control{
+  height: 45px!important;
+  outline: none;
+  box-shadow: none;
+  border:1px solid #ddd;
+  font-size: 13px!important;
+}
+.form-control:focus{
+  outline: none!important;
+  box-shadow: none!important;
+}
+.middle{
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  margin-top: 10px;
+}
+#secondTitle{
+  margin-top: 10px!important;
+}
+.gen-btn,.distributor-btn,.gen-btn2{
+    height: 42px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: #00b4e7;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 13px;
+    outline: none!important;
+    box-shadow: none!important;
+    border: none!important;
+    cursor: pointer;
+}
+.logo{
+  width: 100px;
+  display: inline-block;
+}
+.titles{
+  display: inline-block;
+  color: #5b6a72;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+.title{
+  text-align: center;
+  font-size: 1rem;
+}
+.div-loader{
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  height: 50px;
+  width: 50px;
+  border-radius: 4px;
+  margin: 90px;
+  margin-left: 150px;
+  margin-top: 150px;
+  display: none;
+}
+.loading{
+  width: 50px;
+}
+.get-some{
+  width: 93%;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+#newOne{
+  display: inline-block!important;
+  width: 90%!important;
+  border-radius: 2px!important;
+  border-top-right-radius:0px;
+  border-bottom-right-radius: 0px;
+  border-right: none!important;
+  font-size: 13px!important;
+}
+.get-btn-some{
+  height: 45px;
+  padding: 10px;
+  border: none;
+  background: #d01dd8;
+  color: #fff;
+  font-size: 13px;
+  border-top-right-radius:2px;
+  border-bottom-right-radius: 2px;
+  outline: none!important;
+  display: inline-block;
+  position: absolute;
+}
+.display{
+background: #fff;
+width: 90%;
+margin-left: 50px;
+margin-top: 40px;
+border-radius: 4px;
+}
+.table-bordered thead th, .table-bordered thead td{
+  border-bottom-width:1px!important;
+  text-align: center;
+  font-weight: 200;
+}
+.table-bordered td {
+    border: 1px solid #dee2e6;
+    text-align: center;
+    font-weight: 200;
+}
+.col-md-4{
+  float: left!important;
+  padding: 5px!important;
+}
+.gen-btn2{
+  width: 100%;
+  border-radius: 30px!important;
+  margin-top: 2px!important;
+}
+.success{
+  margin-top: 4px!important;
+}
