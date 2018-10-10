@@ -24,8 +24,8 @@
 				$(".panel-title").html(`Getting Balances for account: ${public_key}`);
 				
 				account.balances.forEach(function(balance) {
-					//console.log('Type:', balance.asset_type, ', Balance:', balance.balance);
-					$("table").append(`<tr class='success'><td>${balance.asset_type}</td><td>${balance.balance}</td></tr>`);
+					console.log(balance);
+					$("table").append(`<tr class='success'><td>${(!balance.asset_code?'XML':balance.asset_code)}</td><td>${balance.balance}</td></tr>`);
 				});
 
 				$("#loading").addClass("hidden");
@@ -53,8 +53,8 @@
 				</div>
 				<table class="table table-hover table-bordered text-center">
 					<tr>
-						<th>Type</th>
-						<th>Balance</th>
+						<th class="text-center">Asset</th>
+						<th class="text-center">Balance</th>
 					</tr>
 					<tr>
 						<td></td>
