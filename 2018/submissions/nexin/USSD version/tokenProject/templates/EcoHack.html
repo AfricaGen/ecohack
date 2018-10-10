@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Order Book</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <p class="text-center"> <h3>Order Book</h3> </p>
+  <table class="ui small compact single line unstackable table">
+     <thead class="">
+        <tr class="">
+           <th class="">Selling</th>
+           <th class="">Buying</th>
+           <th class="">Price</th>
+           <th class="">Amount</th>
+           <th class="right aligned">Action</th>
+        </tr>
+     </thead>
+     <tbody class="">
+       {% for record in records %}
+       <tr class="">
+          <td class="">
+             <div style="display: inline;">
+                <span style="font-weight: 500;">{{record.selling.asset_code}}</span>
+                <span style="color: grey; padding: 0px 0.5rem;">
+                </span>
+              </div>
+            </td>
+            <td class="">
+              <div style="display: inline;">XLM</div>
+             </td>
+             <td class="">
+             <span>{{record.price}}</span>
+             </td>
+               <td class="">
+                  <span>{{record.amount}}</span>
+               </td>
+               <td class="">
+               <button class="ui red basic right floated button">
+                  <i aria-hidden="true" class="trash icon"></i>
+                     Remove
+               </button>
+          </td>
+        </tr>
+        {% endfor %}
+               </tbody>
+               </table>
+</div>
+<!-- SBB7FD3E67OIKZ4IMJEGU52DHQRLOD6PFARCTJTU3J4UFG27YHPKNCCM -->
+</body>
+</html>
