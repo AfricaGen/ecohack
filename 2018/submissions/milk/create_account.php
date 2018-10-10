@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Create account | Shoes market</title>
+	<title>Create account | Milk market</title>
 	<script src="elements/libs/stellar-sdk.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script type="text/javascript" src="elements/jquery/jquery.js"></script>
@@ -63,8 +63,11 @@
 	<?php include 'elements/includes/header_nav.php';?>
 	<section>
 		<div id="result">
-			<div class="well no_bg col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 shadow">
+			<div class="well col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 shadow">
 				<div class="form-group">
+					<h2>
+						CREATE ACCOUNT 
+					</h2>
 					<label for="fname" class="rbm">First name*</label>
 					<input type="text" class="form-control" id="fname" name="fname">
 					<br>

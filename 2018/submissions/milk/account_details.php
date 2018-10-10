@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Acount Details | Shoes market</title>
+	<title>Acount Details | Milk market</title>
 	<script src="elements/libs/stellar-sdk.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script type="text/javascript" src="elements/jquery/jquery.js"></script>
@@ -16,9 +16,7 @@
 		function GetAccount(public_key){
 			// alert(public_key);
 			$("#loading").removeClass("hidden");
-
 			var server = new StellarSdk.Server('https://horizon-testnet.stellar.org');
-
 			// the JS SDK uses promises for most actions, such as retrieving an account
 			server.loadAccount(public_key).then(function(account) {
 				$(".panel-title").html(`Getting Balances for account: ${public_key}`);
@@ -27,10 +25,8 @@
 					console.log(balance);
 					$("table").append(`<tr class='success'><td>${(!balance.asset_code?'XML':balance.asset_code)}</td><td>${balance.balance}</td></tr>`);
 				});
-
 				$("#loading").addClass("hidden");
 			});
-
 		}
 	</script>
 </head>
