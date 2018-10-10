@@ -1,0 +1,1 @@
+This is an android app that allows its users to acquire token called Bonds which are based on the Treasury bonds issued by National Bank of Rwanda, and exchange them among other users.
