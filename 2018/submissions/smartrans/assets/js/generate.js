@@ -2,22 +2,55 @@ var pair="";
 //
 function getAll(){
   //@first make output selector empty
-  $(".display").empty();
+  $(".some1").empty();
+  $(".some").empty();
+  $(".some1").show();
+  $(".some").show();
+  $(".transactionTitle").show();
   var server = new StellarSdk.Server('https://horizon-testnet.stellar.org');
-  //
-  server.loadAccount(pair.publicKey()).then(function(account) {
-  //display.innerHTML += '<br><br><br>Getting Balances for account: ' + pair.publicKey();
+  var pkey = document.getElementById('newOne').value;
+  server.loadAccount(pkey).then(function(account) {
+
+  $(".some1").append(
+    "<h5 class='transactionTitle'>Account Balance</h5>"+
+    "<table class='table table-dark table1'><thead>"+
+   "<tr><th>Asset</th><th>Amount</th><th>Issuer Key</th></tr></thead>");
+
+   //
+   $(".some").append("<h5 class='transactionTitle'>Account Transactions</h5>"+
+   "<table class='table table-dark table2'><thead>"+
+    "<tr><th>Asset</th><th>Balance</th><th>Account</th><th>Date</th></tr></thead>");
+    //
    account.balances.forEach(function(balance) {
-      $(".display").append(
-        "<p>Public Address: "+pair.publicKey()+"</p>"+
-        "<table class='table table-bordered'><thead>"+
-       "<tr><th>#</th><th>Type</th><th>Balance</th></tr></thead>"+
-       "<tbody><tr><td>1</td>"+"<td>"+balance.asset_type+"</td><td>"+balance.balance+"</td>"+
-       "</tr></tbody></table>");
+     console.log(balance);
+     var asset="";
+     var issue="";
+     var ass="";
+     var issuerKey=balance.asset_issuer;
+     if (balance.asset_type=="native") {
+       asset="XLM";
+       issue="";
+       ass="";
+     }else {
+       asset=balance.asset_code;
+       issue=pkey.substring(0,3)+'***'+pkey.substring(pkey.length-3);
+       ass=issuerKey.substring(0,3)+'***'+issuerKey.substring(issuerKey.length-3);
+     }
+
+      $(".table1").append(
+       "<tbody><tr>"+"<td>"+asset+"</td><td>"+balance.balance+"</td>"+
+       "<td>"+issue+"</td>"+"</tr></tbody>");
+    //
+    if (asset!=='XLM') {
+      //append to table2
+      $(".table2").append(
+       "<tbody><tr>"+"<td>"+asset+"("+ass+")"+"</td><td>"+balance.balance+"</td>"+
+       "<td>"+ass+"</td>"+
+       "<td> Today at :"+new Date().getHours()+":"+new Date().getMinutes()+"</td></tr></tbody>");
+    }
    });
   });
 }
-//
 $(".gen-btn").on("click",function(e){
   e.preventDefault();
   $(".div-loader").fadeIn(300);
@@ -38,18 +71,21 @@ $(".gen-btn").on("click",function(e){
     dataType:'JSON',
     success: function(response){
       $("#newToken").val(secret);
-      getAll();
+      //getAll();
       //hide loading spinner
       $(".div-loader").fadeOut(300);
     }
   });
 })
 /*get some btn*/
-$(".get-btn-some").on("click",function() {
+$(".get-btn-some").on("click",function(e) {
+  e.preventDefault();
   if ($("#newOne").val()==="") {
     alert("please insert your key.");
   }
+  $(".div-loader").fadeIn(300);
   getAll();
+  $(".div-loader").fadeOut(300);
 });
 
 //@Distributor key button
