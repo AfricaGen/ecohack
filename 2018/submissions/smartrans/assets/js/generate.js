@@ -22,7 +22,6 @@ function getAll(){
     "<tr><th>Asset</th><th>Balance</th><th>Account</th><th>Date</th></tr></thead>");
     //
    account.balances.forEach(function(balance) {
-     console.log(balance);
      var asset="";
      var issue="";
      var ass="";
@@ -80,8 +79,10 @@ $(".gen-btn").on("click",function(e){
 /*get some btn*/
 $(".get-btn-some").on("click",function(e) {
   e.preventDefault();
+    $(".errors").empty();
   if ($("#newOne").val()==="") {
-    alert("please insert your key.");
+    $(".errors").
+    append("<div class='alert alert-danger'>Please insert your public key from Stellar portal.</div>");
   }
   $(".div-loader").fadeIn(300);
   getAll();
@@ -110,7 +111,6 @@ $(".distributor-btn").on("click",function(e) {
     dataType:'JSON',
     success: function(response){
       $("#newDist").val(secret);
-      getAll();
       //hide loading spinner
       $(".div-loader").fadeOut(300);
     }
