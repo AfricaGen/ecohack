@@ -13,4 +13,4 @@ six==1.11.0
 sseclient==0.0.19
 stellar-base==0.1.9.4
 toml==0.10.0
-urllib3==1.23
+urllib3==1.26.5
